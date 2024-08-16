@@ -228,3 +228,68 @@ hr {
     right: 45.64px;
     top: 266px;
 }
+
+.logo {
+    margin-top:130px;
+}
+
+.logo__inner {
+    border-radius: 100.5px;
+    background:  #e2eddf;
+    padding: 76px 121px;
+}
+
+.logo__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__item {
+    display: flex;
+    align-items: center;
+}
+
+.logo__item:first-child {
+    color: #143c3c;
+    font-size: 3.1rem;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.logo__item:nth-child(2) {
+    color: #143c3c;
+    font-size: 3.2rem;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.slack {
+    margin-right: -5px;
+    vertical-align: middle;
+}
+
+.logo__item:nth-child(3) {
+    color: #163c35;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.discord {
+    margin-right: 11px;
+}
+
+.logo__item:nth-child(4) a {
+    color: #143c3c;
+    font-family: "Sonsie One";
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.logo__item:last-child {
+    color: #143c3c;
+    font-family: Poppins;
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 1.995px;
+}

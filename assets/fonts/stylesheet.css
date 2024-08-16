@@ -323,3 +323,12 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Sonsie One";
+    src: url("Sonsie_One/SonsieOne-Regular.woff2") format("woff2"),
+        url("Sonsie_One/SonsieOne-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
