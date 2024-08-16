@@ -230,12 +230,12 @@ hr {
 }
 
 .logo {
-    margin-top:130px;
+    margin-top: 130px;
 }
 
 .logo__inner {
     border-radius: 100.5px;
-    background:  #e2eddf;
+    background: #e2eddf;
     padding: 76px 121px;
 }
 
@@ -250,7 +250,7 @@ hr {
     align-items: center;
 }
 
-.logo__item:first-child {
+.logo__item:first-child a {
     color: #143c3c;
     font-size: 3.1rem;
     font-weight: 500;
@@ -292,4 +292,128 @@ hr {
     font-size: 1.9rem;
     font-weight: 600;
     letter-spacing: 1.995px;
+}
+
+.service {
+    margin-top: 106px;
+}
+
+.service-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sub-heading {
+    color: #152427;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.62;
+    position: relative;
+    margin-left: 41px;
+}
+
+.sub-heading::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 1px;
+    position: absolute;
+    top: 9px;
+    left: -41px;
+    background: #152427;
+}
+
+.heading__section {
+    margin-top: 12px;
+    color: #152427;
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.244;
+    width: 520px;
+    position: relative;
+}
+
+.heading__section::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 66px;
+    background: #152427;
+    position: absolute;
+    bottom: 19px;
+    right: 103px;
+}
+
+.service__action {
+    display: flex;
+    gap: 17px;
+}
+
+.service__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #e2eddf;
+    border-radius: 50%;
+    color: #152427;
+    margin-bottom: 9px;
+}
+
+.service__btn:last-child {
+    transform: scaleX(-1);
+}
+
+.service__btn:hover {
+    background: #143c3c;
+    color: #fff;
+}
+
+.service-list {
+    display: grid;
+    margin-top: 76px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+}
+
+.service__item {
+    width: 370px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.service__thumb {
+    width: 370px;
+    height: 318px;
+    object-fit: cover;
+}
+.content__item {
+    padding: 24px 0 23px;
+}
+
+.service__item:hover {
+    border-radius: 20px;
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+}
+
+.service__item:hover .content__item {
+    padding-left: 18px;
+}
+
+.service__heading {
+    color: #152427;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.service__desc {
+    color: #7d8188;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71;
+    margin-top: 18px;
+    width: 268px;
 }
