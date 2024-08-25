@@ -1042,3 +1042,91 @@ hr {
     margin-top: 15px;
     margin-right: 0;
 }
+
+.footer {
+    margin-top: 102px;
+    padding: 72px 0 50px;
+    background: #143c3c;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up__heading {
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.email {
+    color: #6a8383;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 25px;
+    background: inherit;
+    border: none;
+    outline: none;
+}
+
+.sign-up__btn {
+    padding: 4px 8px;
+    background: inherit;
+    cursor: pointer;
+}
+
+.sign-up__arrow {
+    color: #c4c4c4;
+    transform: scaleX(-1);
+}
+
+.sign-up__line {
+    width: 354px;
+    height: 1px;
+    background: #6a8383;
+    margin-top: 36px;
+}
+
+.footer-icon {
+    display: flex;
+    margin-top: 47px;
+    gap: 22px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+}
+
+.contact-item:first-child a {
+    color: #fff;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.56;
+}
+
+.contact-item:not(:first-child) a {
+    margin-top: 20px;
+    color: #6a8383;
+    font-family: "Public Sans";
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.25;
+}
+
+.footer__line {
+    width: 1140px;
+    height: 1px;
+    margin-top: 45px;
+    background: linear-gradient(
+        90deg,
+        #143c3c 2.28%,
+        #295a5a 55.65%,
+        rgba(38, 82, 82, 0) 102.06%
+    );
+}
